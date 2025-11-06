@@ -1,6 +1,6 @@
 {
-  "id": "5f0f06ad-236d-458b-beb2-d24f4cf0f8fe",
-  "prevId": "65fb2adf-191c-4e8b-931a-b52e9e65eadf",
+  "id": "43908409-dff4-4a4d-a4b1-6c4472e339eb",
+  "prevId": "5f0f06ad-236d-458b-beb2-d24f4cf0f8fe",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -22,6 +22,12 @@
         },
         "description": {
           "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "manager_id": {
+          "name": "manager_id",
           "type": "text",
           "primaryKey": false,
           "notNull": false
